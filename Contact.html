@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(./b.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 80%;
+        }
+        .cont{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            color: white;
+            font-size: 25px;
+        }
+        iframe{
+            position: absolute;
+            left: 50%;
+            top: 10%;
+        }
+        .foot{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: gray;   
+        width: 100%;
+        position: absolute;
+       top: 80%;
+                                               
+       }
+       .footer{
+        width: 33.3%;
+    
+       }
+       h2{
+        font-size: 28px;
+        margin-bottom: 4px;
+        text-align: center;
+       }
+       .Footer-content{
+        width: 33.3%;
+       }
+       .Footer-content p{
+        width: 190px;
+        margin: auto;
+        padding: 7px;
+       }
+       .Footer-content ul{
+        text-align: center;
+       }
+       .list{
+        padding: 0;
+       }
+       .list li{
+        width: auto;
+        text-align: center;
+        padding: 7px;
+        list-style-type: none;
+        position: relative;
+       }
+       .list li::before{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background-color:pink ;
+        transition: .5s;
+       }
+       .list li:hover::before{
+        width: 70px;
+       }
+       .social-icons{
+        text-align: center;
+        padding: 0;
+       }
+       .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+       }
+       .social-icons i{
+        color: white;
+        font-size: 25px;
+       }
+       a{
+        text-decoration: none;
+       }
+       a:hover{
+        color: pink;
+       }
+       .social-icons i:hover{
+        color: pink;
+       } 
+       
+
+    </style>
+    <body>
+        <div class="cont">
+        <h2>Contact Us</h2>
+        <p>Address : <br> Janagamkote , Shidlagatta, chikkaballapur
+        <br> Karnataka-562102</p>
+    </div>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15534.054419721308!2d77.83824039063029!3d13.255812679488193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1fe1aa93db425%3A0x7b964fa52e4e369b!2sJangamakote%2C%20Karnataka%20562102!5e0!3m2!1sen!2sin!4v1729006750763!5m2!1sen!2sin"
+             width="600" height="350" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <footer>
+                <div class="foot">
+                <div class="Footer-content">
+                    <h2>Contact us</h2>
+                    <p>Email:manojkumar@gmail.com</p>
+                    <p>Phone : 123456789</p>
+                    <p> Address : #101, Chikkaballapur, <br> Shidlagatta, Karnataka-562102</p>
+                </div>
+                <div class="Footer-content">
+                    <h2>Quick Links</h2>
+                    <ul class="list">
+                        <li><a href="">Home</a></li>
+                            <li><a href="">Order</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Login</a></li>
+                    </ul>
+                </div>
+                <div class="Footer-content">
+                    <h2>Follow Us</h2>
+                    <ul class="social-icons">
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+            </footer>
+    </body>
+   
+</html>
